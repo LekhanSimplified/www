@@ -8,42 +8,119 @@
 	
 	<link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css">
 	<link rel="icon" type="image/x-icon" href="assets/favicon.png">
+
+	<style type="text/css">
+		.email::after {
+			content: '@' attr(data-institute);
+		}
+	</style>
 </head>
 <body>
 <header class="bb b--purple shadow-1">
 	<div class="mw8 ml-auto mr-auto pa2">
 		<span class="sans-serif f1">
-			<img class="pt2 h2" src="assets/Lekho2.png" alt="Lekho">
+			<a class="black link" href="index.html"><img class="pt2 h2" src="assets/Lekho2.png" alt="Lekho"></a>
 		</span>
 	</div>
 </header>
-<section>
-	<div class="mw8 ml-auto mr-auto sans-serif pa2">
+<section class="mw8 mb4 ml-auto mr-auto sans-serif pa2">
+	<h1>Website</h1>
+	<article>
 		<p>
-			Lekho is a website building software which is based on Pareto Principle. It states that 80% of output can be achived with 20% of inputs.
+			<div class="dib bg-light-gray br-pill pa1">Lekho Website</div> makes it easy to design your homepage. It is based on the Pareto Principle, which states that 80% of output can be achieved with 20% of input.
 		</p>
+
 		<p>
-			There are 100s of HTML tags and 200s of CSS commands, but only 10s of HTML tags and 30s of CSS Commands are used to build almost any website.
+			A website can be built with just 10 HTML tags and 30 CSS commands, but there are hundreds of HTML tags and double CSS commands.
 		</p>
+
 		<p>
-			Our product lists these commonly used tags and commands along with some readymade components such as gallery, dropdown menu which can be used to build almost any website.
+			Besides these tags and commands, we've got some ready-made components like galleries and dropdown menus that can be used to build almost any website.
 		</p>
-	</div>
+	</article>
+<!-- 	<article>
+		<h2 class="f4">Visit <a class="dark-blue link" href="https://lekho1.statuspage.io/#">Statuspage</a></h2>
+	</article> -->
+	<article>
+		<h2>Plans</h2>
+		<h3 class="ml2 f4 bb">Cloud Hosting @ ₹1,200 / year, ₹100 / month</h2>
+		<ul>
+			<li class="mv2">Easy hosting with SSL.</li>
+			<li class="mv2">Using the In-browser application you can design/preview your homepage.</li>
+			<li class="mv2">Detection of broken links.</li>
+			<li class="mv2">Up to 
+				<ul>
+					<li class="mv2">250MB Storage, and</li>
+					<li class="mv2">25GB download per month (approx. 1000-5000 visits per month)</li>
+				</ul>
+			</li>
+			<li class="mv2">Free <span class="blue">yourname.lekho.in</span>.</li>
+			<li class="mv2">You can purchase custom domain from any accredited registrar (<a class="blue link" target="_blank" href="https://www.registry.in/accredited-registrars">list</a>) and get it linked.</li>
+			<!-- <li class="mv2">With an .in domain you shall get a free email@yourdomain.in from <a class="blue link" href="https://nixi.in">NIXI</a>.
+			<li class="mv2">Up to 5 free email@yourdomain from <a class="blue link" href="https://zoho.com/">Zoho</a>.</li> -->
+			<li class="mv2">Viewers can subscribe to notifications on updates of any page (such as post-doc advertisements).</li>
+			<li class="mv2">Customer Support.</li>
+		</ul>
+
+		<h4>Addons</h2>
+
+		<strong class="ml4 f5">Storage</strong>
+		<ul>
+			<li class="mv2">A ₹50/year for 100MB of storage.</li>
+			<li class="mv2">A ₹200/year for 500MB of storage.</li>
+		</ul>
+
+		<strong class="ml4 f5">Bandwidth</strong>
+		<ul>
+			<li class="mv2">A ₹100/year for 10GB downloads/month (i.e. viewing 10MB 1000 times per month for a year).</li>
+			<li class="mv2">A ₹400/year for 50GB downloads/month (i.e. viewing 10MB 5000 times per month for a year).</li>
+			<!-- <li class="mv2">₹100/email/year for more emails from <a class="blue link" href="https://nixi.in/">NIXI</a>.</li> -->
+		</ul>
+
+		<strong class="ml4 f5">Email</strong>
+		<ul>
+			<li class="mv2">A ₹75/month for email of 5GB inbox.</li>
+			<li class="mv2">A ₹100/month for email of 10GB inbox.</li>
+		</ul>
+
+		<h3 class="ml2 f4 bb">Self Hosting @ ₹600 / year, ₹60 / month</h2>
+		<ul>
+			<li class="mv2">Use the in-browser application to design/preview your homepage.</li>
+			<li class="mv2">Detection of broken links.</li>
+			<li>Get the html files of your design.</li>
+			<li class="mv2">Customer Support.</li>
+		</ul>
+
+		<h3 class="ml2 f4 bb">Free</h2>
+		<ul>
+			<li class="mv2">1 Month Trial Period</li>
+			<li class="mv2">Use the in-browser application to design/preview your homepage.</li>
+			<li class="mv2">Detection of broken links.</li>
+			<li class="mv2">Up to
+			<ul>
+				<li class="mv2">50 MB Storage, and</li>
+				<li class="mv2">1GB download (approx.100-500 visits)</li>
+			</ul></li>
+			<li class="mv2">Free <span class="blue">yourname.lekho.in</span>.</li>
+			<li class="mv2">No custom domain.</li>
+		</ul>
+		<h1>Launching in January, 2024</h1>
+<!-- 		<ul>
+			<li class="mv2">Use the in-browser application to design/preview your homepage.</li>
+			<li class="mv2">Detection of broken links.</li>
+		</ul> -->
+
+		<!-- <p> -->
+			<!-- For high requirements, please contact sales@lekho.in. -->
+		<!-- </p> -->
+	</article>
+	<!-- <article>
+		<h2 class="f4">New Registration</h2>
+		Please fill <a class="blue link" href="https://forms.gle/w6zmsEYjSbQiZePb8">this form</a> and write to <span class="email" data-institute="lekho.in">sales</span> to create a new acount.
+	</article> -->
 </section>
-<section class="mw8 ml-auto mr-auto sans-serif pa2">
-	<h2>Visit <a class="dark-blue link" href="https://lekho1.statuspage.io/#">Statuspage</a></h2>
-		Mail us at <a class="dark-blue link" href="mailto:sales@lekho.in">sales@lekho.in</a>
-</section>
-<section class="mw8 ml-auto mr-auto sans-serif pa2">
-	<h2>Features</h2>
-	<ul>
-		<li>Easy hosting with SSL.</li>
-		<li>Using the In-browser application you can design/preview almost any kind of website that does not require a login.</li>
-		<li>Up to 80 GB download (8MB website visited 10,000 times) per month we offer you the service at <span class="nowrap">₹50 per month</span> or <span class="nowrap">₹500 per year.</span></li>
-		<li>You can purchase custom domain from any registrar, we shall connect your website to your domain.</li>
-		<li>We offer email@yourdomain at <span class="nowrap">₹60 per month</span> (per email) with <span class="nowrap">5 GB inbox.</span></li>
-		<!-- <li><em>Contact us</em> form and <em>Cart</em> facility is separetely chargable.</li> -->
-	</ul>
+<section class="mw8 mb4 ml-auto mr-auto sans-serif pa2">
+	<a class="blue link" href="other.html">Other products under development</a>
 </section>
 <script src="https://lekho1.statuspage.io/embed/script.js"></script>
 </body>
