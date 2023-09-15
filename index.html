@@ -27,7 +27,7 @@
 	<h1>Website</h1>
 	<article>
 		<p>
-			<div class="dib bg-light-gray br-pill pa1">Lekho Website</div> makes it easy to design your homepage. It is based on the Pareto Principle, which states that 80% of output can be achieved with 20% of input.
+			<div class="dib bg-light-gray br-pill pa1">Lekho Website</div> makes it easy to design your homepage/portfolio. It is based on the Pareto Principle, which states that 80% of output can be achieved with 20% of input.
 		</p>
 
 		<p>
@@ -42,18 +42,11 @@
 		<h2 class="f4">Visit <a class="dark-blue link" href="https://lekho1.statuspage.io/#">Statuspage</a></h2>
 	</article> -->
 	<article>
-		<h2>Plans</h2>
-		<h3 class="ml2 f4 bb">Cloud Hosting @ ₹1,200 / year, ₹100 / month</h2>
+		<h2 class="ml2 f4 bb">Cloud Hosting</h2>
 		<ul>
 			<li class="mv2">Easy hosting with SSL.</li>
 			<li class="mv2">Using the In-browser application you can design/preview your homepage.</li>
 			<li class="mv2">Detection of broken links.</li>
-			<li class="mv2">Up to 
-				<ul>
-					<li class="mv2">250MB Storage, and</li>
-					<li class="mv2">25GB download per month (approx. 5,000-10,000 visits per month)</li>
-				</ul>
-			</li>
 			<li class="mv2">Free <span class="blue">yourname.lekho.in</span>.</li>
 			<li class="mv2">You can purchase custom domain from any accredited registrar (<a class="blue link" target="_blank" href="https://www.registry.in/accredited-registrars">list</a>) and get it linked.</li>
 			<!-- <li class="mv2">With an .in domain you shall get a free email@yourdomain.in from <a class="blue link" href="https://nixi.in">NIXI</a>.
@@ -61,45 +54,63 @@
 			<li class="mv2">Viewers can subscribe to notifications on updates of any page (such as post-doc advertisements).</li>
 			<li class="mv2">Customer Support.</li>
 		</ul>
+		<h3 class="ml4 f5">Plans</h3>
+		<div class="flex ml4 justify-between">
+			<div class="w-30 shadow-1 pa2 ba bg-washed-red">
+				<b>Price: ₹250/year</b><br>
+				<br>
+				Bandwidth: 5 GB / Month<br>
+				Storage: 50 MB<br>
+				Approx visits: 2500-5000 / month<br>
+			</div>
+
+			<div class="w-30 shadow-1 pa2 ba bg-washed-yellow">
+				<b>Price: ₹500/year</b><br>
+				<br>
+				Bandwidth: 10 GB / Month<br>
+				Storage: 100 MB<br>
+				Approx visits: 5000-10,000 / month<br>
+			</div>
+
+			<div class="w-30 shadow-1 pa2 ba bg-washed-green">
+				<b>Price: ₹1250/year</b><br>
+				<br>
+				Bandwidth: 25 GB / Month<br>
+				Storage: 250 MB<br>
+				Approx visits: 12,500-25,000 / month<br>
+			</div>
+		</div>
+
+		<div class="ml4 mt4 shadow-1 pa2 ba bg-lightest-blue">
+			<h3 class="f5">Custom Plan</h3>
+			<div>
+				Bandwidth <input onchange="Calculate_price()" type="range" min="5" max="100" value="50" step="5" id="bandwidth"> <span id="bandwidth_value"></span><br>
+
+				Storage <input onchange="Calculate_price()" type="range" min="50" max="2000" value="200" step="10" id="storage"> <span id="storage_value"></span><br>
+
+				<p id="custom_plan"></p>
+
+			</div>
+		</div>
 
 		<h4>Addons</h2>
 
-		<strong class="ml4 f5">Storage</strong>
-		<ul>
-			<li class="mv2">A ₹50/year for 100MB of storage.</li>
-			<li class="mv2">A ₹200/year for 500MB of storage.</li>
-		</ul>
-
-		<strong class="ml4 f5">Bandwidth</strong>
-		<ul>
-			<li class="mv2">A ₹100/year for 10GB downloads/month (i.e. viewing 10MB 1000 times per month for a year).</li>
-			<li class="mv2">A ₹400/year for 50GB downloads/month (i.e. viewing 10MB 5000 times per month for a year).</li>
-			<!-- <li class="mv2">₹100/email/year for more emails from <a class="blue link" href="https://nixi.in/">NIXI</a>.</li> -->
-		</ul>
-
 		<strong class="ml4 f5">Email</strong>
 		<ul>
-			<li class="mv2">A ₹75/month for email of 5GB inbox.</li>
-			<li class="mv2">A ₹100/month for email of 10GB inbox.</li>
+			<li class="mv2">A ₹900/year (₹75/month) for an email of 5GB inbox.</li>
+			<li class="mv2">A ₹1,200/year (₹100/month) for an email of 10GB inbox.</li>
+			<li class="mv2">A ₹3,000/year (₹250/month) for an email of 50GB inbox.</li>
 		</ul>
 
-		<h3 class="ml2 f4 bb">Self Hosting @ ₹600 / year, ₹60 / month</h2>
-		<ul>
-			<li class="mv2">Use the in-browser application to design/preview your homepage.</li>
-			<li class="mv2">Detection of broken links.</li>
-			<li>Get the html files of your design.</li>
-			<li class="mv2">Customer Support.</li>
-		</ul>
-
-		<h3 class="ml2 f4 bb">Free</h2>
+		<h3 class="ml2 f4 bb">Almost Free @ ₹5</h2>
 		<ul>
 			<li class="mv2">1 Month Trial Period</li>
 			<li class="mv2">Use the in-browser application to design/preview your homepage.</li>
 			<li class="mv2">Detection of broken links.</li>
 			<li class="mv2">Up to
 			<ul>
-				<li class="mv2">50 MB Storage, and</li>
 				<li class="mv2">1GB download (approx.100-500 visits)</li>
+				<li class="mv2">50 MB Storage, and</li>
 			</ul></li>
 			<li class="mv2">Free <span class="blue">yourname.lekho.in</span>.</li>
 			<li class="mv2">No custom domain.</li>
@@ -123,5 +134,50 @@
 	<a class="blue link" href="other.html">Other products under development</a>
 </section>
 <script src="https://lekho1.statuspage.io/embed/script.js"></script>
+<script type="text/javascript">
+	function myround(x, base=5) {
+		return base * Math.round(x/base)
+	}
+
+	function Calculate_price() {
+		Bandwidth = bandwidth.value
+		Storage = storage.value
+
+		Bandwidth_Rate = 0.5   // Rs/GB/Month
+		Storage_SSD_Rate = 10  // Rs/GB/Month
+		Typical_page_size = 2  // MB
+
+		Bandwidth_Cost = Bandwidth * Bandwidth_Rate * 12
+		Storage_Cost =  3 * Storage * Storage_SSD_Rate/1000 * 12
+
+		Bunny_Cost = Bandwidth_Cost + Storage_Cost
+
+		IGST_Markup = 4/100*Bunny_Cost  // IGST=2%, Markup(Exchange price) = 2%
+
+		Plan_Price = (IGST_Markup + Bunny_Cost) * 5
+
+		GST = 18/100 * Plan_Price
+		Gateway = 4/100 * Plan_Price
+
+		Total_Cost = Bunny_Cost + IGST_Markup + GST + Gateway
+		//   42%         16%     +     4%      + 18% +   4%
+
+		// Total_Cost = 42% of Plan_Price
+		// Net_Profit > 68% of Plan_Price
+
+		Approx_visits = Bandwidth*1000/Typical_page_size
+
+		bandwidth_value.innerHTML = Bandwidth + ` GB/Month`
+
+		storage_value.innerHTML = Storage + ` MB`
+
+		custom_plan.innerHTML = `
+		<b>Plan Price: ` + myround(Plan_Price, 50) + `/year</b><br>
+		Approx visits: ` + Approx_visits + `-` + Approx_visits*2 + ` / month
+		`
+	}
+
+	Calculate_price();
+</script>
 </body>
 </html>
